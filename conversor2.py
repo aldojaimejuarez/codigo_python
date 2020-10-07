@@ -46,7 +46,6 @@ def cambios(origen, valor_dolar):
     dolares = round(dolares, 2)
     dolares = str(dolares)
     print("Tienes $" + dolares + " dólares")
-    return valor_dolar
 
 
 menu = """ 
