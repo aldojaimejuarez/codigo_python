@@ -28,5 +28,5 @@ def suma(a, b):
     resultado = a + b
     return resultado
 
-sumatoria = suma(1, 5)
+sumatoria = suma(1, 6)
 print(sumatoria)
