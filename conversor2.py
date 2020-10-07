@@ -39,8 +39,8 @@
 
 
 
-def cambios(nacionalidad, valor_dolar):
-    pesos= input("¿Cuántos pesos " +  nacionalidad  + " tienes?: ")
+def cambios(origen, valor_dolar):
+    pesos= input("¿Cuántos pesos " +  origen  + " tienes?: ")
     pesos = float(pesos)
     dolares = pesos / valor_dolar
     dolares = round(dolares, 2)
