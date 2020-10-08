@@ -11,3 +11,18 @@ def run():
 
 if __name__ == '__main__':
     run() 
+
+#     def run():
+#     LIMITE = 10
+#     constante = 1
+#     contador = 0
+#     suma = 1 + contador
+
+#     while suma < LIMITE:
+#       print(str(contador) + " más " + str(constante) + " es igual a " + str(suma)) 
+#       contador = contador + constante
+#       suma = constante + contador
+
+
+# if __name__ == '__main__':
+#     run()
