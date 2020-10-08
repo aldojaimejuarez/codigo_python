@@ -26,6 +26,7 @@ def run():
         if suma == 5:
             break
 
+
 # CONTINUE
     contador = 1
     print(contador)
@@ -34,7 +35,6 @@ def run():
         if contador == 5:
             continue
         print(contador)
-
 
 
 if __name__ == '__main__':
