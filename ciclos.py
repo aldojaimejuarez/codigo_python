@@ -12,23 +12,36 @@
 # if __name__ == '__main__':
 #     run() 
 
-#     def run():
-#     LIMITE = 10
-#     constante = 1
-#     contador = 0
-#     suma = 1 + contador
+def run():
+# BREAK
+    LIMITE = 12
+    constante = 1
+    contador = 0
+    suma = 1 + contador
 
-#     while suma < LIMITE:
-#       print(str(contador) + " más " + str(constante) + " es igual a " + str(suma)) 
-#       contador = contador + constante
-#       suma = constante + contador
+    while suma < LIMITE:
+        print(str(contador) + " más " + str(constante) + " es igual a " + str(suma)) 
+        contador = contador + 1
+        suma = 1 + contador
+        if suma == 5:
+            break
 
-
-# if __name__ == '__main__':
-#     run()
-
-contador = 1
-print(contador)
-while contador < 10:
-    contador += 1
+# CONTINUE
+    contador = 1
     print(contador)
+    while contador < 10:
+        contador += 1
+        if contador == 5:
+            continue
+        print(contador)
+
+
+
+if __name__ == '__main__':
+    run()
+
+# contador = 1
+# print(contador)
+# while contador < 10:
+#     contador += 1
+#     print(contador)
