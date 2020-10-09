@@ -4,6 +4,7 @@ def es_primo(num):
                 return False
         return True            
 
+
 def run():
     num = int(input('Escribe un número: '))
     if num == 1:
@@ -15,6 +16,7 @@ def run():
             print("Es primo")
         else:
             print("No es primo")
+
 
 if __name__ == '__main__':
     run()
